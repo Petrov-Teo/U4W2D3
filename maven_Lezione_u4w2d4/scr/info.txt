@@ -1,0 +1,5 @@
+User{Età=35, Nome='Aldo', Cognome='Stanzoni', Città='Roma'}
+User{Età=35, Nome='Aldo', Cognome='Stanzoni', Città='Roma'}
+User{Età=35, Nome='Aldo', Cognome='Stanzoni', Città='Roma'}
+Aldo-Stanzoni-35-Roma
+Aldo-Stanzoni-35-Roma

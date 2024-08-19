@@ -1,4 +1,4 @@
-package exceptions;
+package io.Petrov_Todor.exceptions;
 
 public class StringNotValidException extends Exception {
 

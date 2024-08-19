@@ -1,4 +1,4 @@
-package exceptions;
+package functional_interfaces.exceptions;
 
 public class NumberLessThanZeroException extends RuntimeException {
 

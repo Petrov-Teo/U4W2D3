@@ -1,14 +1,19 @@
-import functional_interfaces.exceptions.StringNotValidException;
+package io.Petrov_Todor;
+
+
+import io.Petrov_Todor.exceptions.StringNotValidException;
 
 public class User {
     int eta;
     private String nome;
     private String cognome;
+    private String citta;
 
-    public User(String nome, String cognome, int eta) {
+    public User(String nome, String cognome, int eta, String citta) {
         this.cognome = cognome;
         this.nome = nome;
         this.eta = eta;
+        this.citta = citta;
     }
 
     public String getNome() {
@@ -37,12 +42,21 @@ public class User {
         this.cognome = cognome;
     }
 
+    public String getCitta() {
+        return citta;
+    }
+
+    public void setCitta(String citta) {
+        this.citta = citta;
+    }
+
     @Override
     public String toString() {
         return "User{" +
-                "nome='" + nome + '\'' +
-                ", cognome='" + cognome + '\'' +
-                ", età='" + eta + '\'' +
+                "Età=" + eta +
+                ", Nome='" + nome + '\'' +
+                ", Cognome='" + cognome + '\'' +
+                ", Città='" + citta + '\'' +
                 '}';
     }
 }
